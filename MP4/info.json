@@ -1,0 +1,8 @@
+{
+	"cmd": "try_match",
+	"name": "loser",
+	"age": 23,
+	"gender": "male",
+	"introduction": "I get hurt a lot in that chatroom war...",
+	"filter_function": "int filter_function(struct User user) { return 1; }"
+}

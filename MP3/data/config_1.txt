@@ -1,0 +1,2 @@
+MINE: treasure_6
+MINER: /tmp/ada_in /tmp/ada_out

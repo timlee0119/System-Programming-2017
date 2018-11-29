@@ -1,0 +1,9 @@
+MINE: /tmp/tim_mine.bin
+MINER: /tmp/tim1_in /tmp/tim1_out
+MINER: /tmp/tim2_in /tmp/tim2_out
+MINER: /tmp/tim3_in /tmp/tim3_out
+MINER: /tmp/tim4_in /tmp/tim4_out
+MINER: /tmp/tim5_in /tmp/tim5_out
+MINER: /tmp/tim6_in /tmp/tim6_out
+MINER: /tmp/tim7_in /tmp/tim7_out
+MINER: /tmp/tim8_in /tmp/tim8_out

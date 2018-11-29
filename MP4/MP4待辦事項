@@ -1,0 +1,17 @@
+MP4待辦事項:
+1.當client終止連線時，
+a.在fd_info_map中初始化該fd位置的Client_info、移除他動態函式庫的source跟.so、
+b.若status = "matching"，在queue裡移除他
+
+2.當client quit 或 otherside quit時：
+a.若status = "matching"，在queue裡移除他
+b.把status改為 "idle"
+b.把chat_with歸零
+
+@測試try_match完 quit後再try_match一次，有沒有直接載入動態函式庫而非重新編譯
+
+3.當server收到client的不完整訊息時，先將訊息緩存(目前為block住直到client傳完整)
+
+統一格式：
+filter_func_cfile一律叫fd_filter.c
+share_lib一律叫fd_filter.so

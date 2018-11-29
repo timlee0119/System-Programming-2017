@@ -1,0 +1,3 @@
+MINE: /tmp/mine.bin
+MINER: /tmp/ada_in /tmp/ada_out
+MINER: /tmp/margaret_in /tmp/margaret_out
